@@ -1,4 +1,4 @@
-import logo from '@/assets/logo-psi.jpeg';
+import logo from '@/assets/FundoClaro_01.svg';
 import { useState } from 'react';
 
 export const Header = (): React.JSX.Element => {
@@ -13,7 +13,7 @@ export const Header = (): React.JSX.Element => {
             rel="noreferrer"
             className="relative z-10 flex-1 justify-center text-xs md:flex"
           >
-            <img src={logo} alt="logo" className="h-12 w-12" />
+            <img src={logo} alt="logo" className="h-14 w-16" />
           </a>
 
           <div
@@ -31,7 +31,7 @@ export const Header = (): React.JSX.Element => {
             <ul className="md:flex">
               <li className="p-0 pr-14">
                 <a href="/" className="text-white hover:text-[#B2BDA0]">
-                  Home
+                  Sobre
                 </a>
               </li>
               <li className="p-0 pr-14">
@@ -39,7 +39,7 @@ export const Header = (): React.JSX.Element => {
                   href="/ansiedade"
                   className="text-white hover:text-[#B2BDA0]"
                 >
-                  Ansiedade
+                  T.C.C
                 </a>
               </li>
               <li className="p-0 pr-14">
@@ -47,17 +47,12 @@ export const Header = (): React.JSX.Element => {
                   href="/depressao"
                   className="text-white hover:text-[#B2BDA0]"
                 >
-                  Depressão
+                  Tratamentos
                 </a>
               </li>
               <li className="p-0 pr-14">
                 <a href="/tdah" className="text-white hover:text-[#B2BDA0]">
-                  TDAH
-                </a>
-              </li>
-              <li className="p-0 pr-14">
-                <a href="/sobre" className="text-white hover:text-[#B2BDA0]">
-                  Sobre
+                  Depoimentos
                 </a>
               </li>
             </ul>
