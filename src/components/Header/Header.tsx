@@ -30,28 +30,28 @@ export const Header = (): React.JSX.Element => {
           <nav className="relative z-10 hidden flex-1 items-center justify-center px-4 text-neutral-700 md:flex dark:text-neutral-100">
             <ul className="md:flex">
               <li className="p-0 pr-14">
-                <a href="/" className="text-white hover:text-[#B2BDA0]">
+                <a href="#sobre" className="text-white hover:text-[#B2BDA0]">
                   Sobre
                 </a>
               </li>
               <li className="p-0 pr-14">
-                <a
-                  href="/ansiedade"
-                  className="text-white hover:text-[#B2BDA0]"
-                >
-                  T.C.C
+                <a href="#tcc" className="text-white hover:text-[#B2BDA0]">
+                  TCC
                 </a>
               </li>
               <li className="p-0 pr-14">
                 <a
-                  href="/depressao"
+                  href="#tratamentos"
                   className="text-white hover:text-[#B2BDA0]"
                 >
                   Tratamentos
                 </a>
               </li>
               <li className="p-0 pr-14">
-                <a href="/tdah" className="text-white hover:text-[#B2BDA0]">
+                <a
+                  href="#depoimentos"
+                  className="text-white hover:text-[#B2BDA0]"
+                >
                   Depoimentos
                 </a>
               </li>
