@@ -13,7 +13,7 @@ export const Home = (): React.JSX.Element => {
         }}
       ></div>
 
-      <div className="absolute left-10 top-36 flex flex-col items-center overflow-hidden rounded-2xl bg-[#EAEAEA] p-10 opacity-75 lg:left-[15%] lg:top-[25%] lg:w-[500px]">
+      <div className="absolute inset-x-10 top-36 flex flex-col items-center overflow-hidden rounded-2xl bg-[#EAEAEA] p-10 opacity-75 lg:left-[15%] lg:top-[25%] lg:w-[500px]">
         <h2 className="pb-3 text-center font-[Lora] text-xl text-[#2C5545]">
           Como posso te ajudar?
         </h2>
@@ -44,7 +44,7 @@ export const Home = (): React.JSX.Element => {
           href="https://api.whatsapp.com/send?phone=5521992183064&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Psicoterapia!%20"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-[40px] border-2 border-solid bg-[#2c5545] px-[1em] py-[0.3em] text-[20px] font-medium text-white"
+          className="whitespace-nowrap rounded-[40px] border-2 border-solid bg-[#2c5545] px-[1em] py-[0.3em] text-[20px] font-medium text-white"
         >
           Agende sua consulta
         </a>
