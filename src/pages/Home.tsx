@@ -1,4 +1,3 @@
-/* import { Header } from '@/components/Header/Header'; */
 import { MainTemplate } from '@/templates/MainTemplate';
 import Background from '../assets/banner02.jpeg';
 import photoImage from '../assets/fotoCarol-2.jpeg';
@@ -55,9 +54,9 @@ export const Home = (): React.JSX.Element => {
         id="sobre"
         className="flex justify-center py-8 lg:bg-[#8D9E6F] lg:py-16"
       >
-        <div className="flex max-w-5xl flex-col rounded-3xl bg-[#F8F8F8] p-4 lg:flex-row lg:p-[35px]">
+        <div className="flex max-w-5xl flex-col rounded-3xl bg-[#F8F8F8] p-4 shadow-2xl lg:flex-row lg:p-[35px]">
           <img
-            className="mb-4 h-[400px] w-full rounded-3xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
+            className="mb-4 h-[400px] w-full rounded-3xl shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
             src={photoImage}
             alt="Imagem da Carol"
           />
@@ -107,7 +106,7 @@ export const Home = (): React.JSX.Element => {
       >
         <div className="flex max-w-5xl flex-col p-4 lg:flex-row lg:p-[35px]">
           <img
-            className="mb-4 h-[400px] w-full rounded-3xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
+            className="mb-4 h-[400px] w-full rounded-3xl shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
             src={creatorTcc}
             alt="Imagem criador Tcc"
           />
@@ -149,7 +148,7 @@ export const Home = (): React.JSX.Element => {
 
         <div className="grid grid-cols-1 gap-4 px-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6 lg:px-12">
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 TDAH
               </h3>
@@ -168,7 +167,7 @@ export const Home = (): React.JSX.Element => {
             </div>
           </div>
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 Ansiedade
               </h3>
@@ -191,7 +190,7 @@ export const Home = (): React.JSX.Element => {
             </div>
           </div>
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 Transtornos Depressivos
               </h3>
@@ -214,7 +213,7 @@ export const Home = (): React.JSX.Element => {
             </div>
           </div>
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 Autoestima
               </h3>
@@ -236,7 +235,7 @@ export const Home = (): React.JSX.Element => {
             </div>
           </div>
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 TOC
               </h3>
@@ -255,7 +254,7 @@ export const Home = (): React.JSX.Element => {
             </div>
           </div>
           <div className="mt-3 box-border flex py-7 lg:justify-center">
-            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+            <div className="mr-[5.5%] box-border flex max-w-[400px] flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-2xl">
               <h3 className="px-12 py-6 text-center font-[Lora] text-xl font-bold lg:text-left">
                 Relacionamento
               </h3>
@@ -284,33 +283,33 @@ export const Home = (): React.JSX.Element => {
         </h2>
 
         <div className="grid grid-cols-1 gap-4 px-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6 lg:px-12">
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Obrigado por me ajudar e também ajudar inúmeras pessoas, você é
               necessária para esse mundinho, você faz ele muito melhor!
             </p>
           </div>
 
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Você é uma profissional incrível e sensacional, eu amo sua energia
               e como você trasnmite algo bom!
             </p>
           </div>
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Estou verdadeiramente grato por sua ajuda em minha jornada de
               autoconhecimento e cura. Obrigado por ser uma luz em meu caminho.
             </p>
           </div>
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Muito obrigada por toda a ajuda que vocẽ tem me dado. Suas
               técnicas e conselhos são como um braço para a alma. Obrigado por
               ser essa psicóloga tão incrível!
             </p>
           </div>
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Gostaria de dizer o quanto sou grato por todas as nossas sessões
               de terapia. Você consegue transformar até os momentos confusos em
@@ -319,7 +318,7 @@ export const Home = (): React.JSX.Element => {
               demais!
             </p>
           </div>
-          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7">
+          <div className="box-border flex flex-col items-center overflow-hidden rounded-lg bg-white p-7 shadow-xl">
             <p>
               Minha ansiedade melhorou muito depois que começamos a terapia,
               isso me choca até hoje, muito obrigada mesmo por tudo que fez por

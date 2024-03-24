@@ -29,17 +29,17 @@ export const Header = (): React.JSX.Element => {
 
           <nav className="relative z-10 hidden flex-1 items-center justify-center px-4 text-neutral-700 md:flex dark:text-neutral-100">
             <ul className="md:flex">
-              <li className="p-0 pr-14">
+              <li className="p-0 pr-14 transition duration-300">
                 <a href="#sobre" className="text-white hover:text-[#B2BDA0]">
                   Sobre
                 </a>
               </li>
-              <li className="p-0 pr-14">
+              <li className="p-0 pr-14 transition duration-300">
                 <a href="#tcc" className="text-white hover:text-[#B2BDA0]">
                   TCC
                 </a>
               </li>
-              <li className="p-0 pr-14">
+              <li className="p-0 pr-14 transition duration-300">
                 <a
                   href="#tratamentos"
                   className="text-white hover:text-[#B2BDA0]"
@@ -47,7 +47,7 @@ export const Header = (): React.JSX.Element => {
                   Tratamentos
                 </a>
               </li>
-              <li className="p-0 pr-14">
+              <li className="p-0 pr-14 transition duration-300">
                 <a
                   href="#depoimentos"
                   className="text-white hover:text-[#B2BDA0]"
