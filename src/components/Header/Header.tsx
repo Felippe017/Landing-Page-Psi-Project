@@ -18,7 +18,7 @@ export const Header = (): React.JSX.Element => {
 
           <div
             onClick={() => {
-              setOpen(prevOpen => !prevOpen);
+              setOpen(!open);
             }}
             className="space-y-2 md:hidden"
           >
@@ -59,32 +59,33 @@ export const Header = (): React.JSX.Element => {
           </nav>
         </div>
       </header>
-      {!open && (
+      {open && (
         <div className={`md:hidden`}>
-          <ul className="w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
-            <li className="px-[5%] py-3">
-              <a href="/" className="text-white hover:text-[#B2BDA0]">
-                Home
-              </a>
-            </li>
-            <li className="px-[5%] py-3">
-              <a href="/ansiedade" className="text-white hover:text-[#B2BDA0]">
-                Ansiedade
-              </a>
-            </li>
-            <li className="px-[5%] py-3">
-              <a href="/depressao" className="text-white hover:text-[#B2BDA0]">
-                Depressão
-              </a>
-            </li>
-            <li className="px-[5%] py-3">
-              <a href="/tdah" className="text-white hover:text-[#B2BDA0]">
-                TDAH
-              </a>
-            </li>
-            <li className="px-[5%] py-3">
-              <a href="/sobre" className="text-white hover:text-[#B2BDA0]">
+          <ul className="absolute z-10 w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
+            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+              <a href="#sobre" className="text-white hover:text-[#B2BDA0]">
                 Sobre
+              </a>
+            </li>
+            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+              <a href="#tcc" className="text-white hover:text-[#B2BDA0]">
+                TCC
+              </a>
+            </li>
+            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+              <a
+                href="#tratamentos"
+                className="text-white hover:text-[#B2BDA0]"
+              >
+                Tratamentos
+              </a>
+            </li>
+            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+              <a
+                href="#depoimentos"
+                className="text-white hover:text-[#B2BDA0]"
+              >
+                Depoimentos
               </a>
             </li>
           </ul>
