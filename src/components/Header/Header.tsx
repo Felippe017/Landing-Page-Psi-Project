@@ -61,7 +61,7 @@ export const Header = (): React.JSX.Element => {
       </header>
       {open && (
         <div className={`md:hidden`}>
-          <ul className="absolute z-10 w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
+          <ul className="fixed z-10 w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
             <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
               <a href="#sobre" className="text-white hover:text-[#B2BDA0]">
                 Sobre

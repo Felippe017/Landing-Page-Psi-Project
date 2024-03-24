@@ -17,14 +17,14 @@ export const Home = (): React.JSX.Element => {
         <h2 className="pb-3 text-center font-[Lora] text-xl text-[#2C5545]">
           Como posso te ajudar?
         </h2>
-        <p className="pb-5 font-[Quattrocento] text-base text-[#363636]">
+        {/* <p className="pb-5 font-[Quattrocento] text-base text-[#363636]">
           Em diferentes fases da vida, todos nós nos deparamos com desafios e
           momentos difíceis. Às vezes, essas questões parecem tão complexas que
           lidar com elas sozinho se torna desafiador. Quando percebemos que algo
           está interferindo no nosso progresso em direção aos nossos sonhos,
           buscar apoio é uma excelente escolha, e é aí que a psicoterapia se
           torna relevante.
-        </p>
+        </p> */}
         <p className="pb-5 font-[Quattrocento] text-base text-[#363636]">
           A psicoterapia pode auxiliar você a gerenciar suas emoções, aprimorar
           sua autoimagem, desenvolver um autoconhecimento, aperfeiçoar a forma
