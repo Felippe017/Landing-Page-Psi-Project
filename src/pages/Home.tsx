@@ -1,5 +1,5 @@
 import { MainTemplate } from '@/templates/MainTemplate';
-import Background from '../assets/banner02.jpeg';
+import Background from '../assets/banner_carol.svg';
 import photoImage from '../assets/fotoCarol-2.jpeg';
 import creatorTcc from '../assets/creatorTCC.jpeg';
 
@@ -7,7 +7,7 @@ export const Home = (): React.JSX.Element => {
   return (
     <MainTemplate>
       <div
-        className="h-[1000px] py-14"
+        className="h-[1000px]"
         style={{
           backgroundImage: `url(${Background})`,
         }}
@@ -17,14 +17,6 @@ export const Home = (): React.JSX.Element => {
         <h2 className="pb-3 text-center font-[Lora] text-xl text-[#2C5545]">
           Como posso te ajudar?
         </h2>
-        {/* <p className="pb-5 font-[Quattrocento] text-base text-[#363636]">
-          Em diferentes fases da vida, todos nós nos deparamos com desafios e
-          momentos difíceis. Às vezes, essas questões parecem tão complexas que
-          lidar com elas sozinho se torna desafiador. Quando percebemos que algo
-          está interferindo no nosso progresso em direção aos nossos sonhos,
-          buscar apoio é uma excelente escolha, e é aí que a psicoterapia se
-          torna relevante.
-        </p> */}
         <p className="pb-5 font-[Quattrocento] text-base text-[#363636]">
           A psicoterapia pode auxiliar você a gerenciar suas emoções, aprimorar
           sua autoimagem, desenvolver um autoconhecimento, aperfeiçoar a forma
@@ -56,7 +48,7 @@ export const Home = (): React.JSX.Element => {
       >
         <div className="flex max-w-5xl flex-col rounded-3xl bg-[#F8F8F8] p-4 shadow-2xl lg:flex-row lg:p-[35px]">
           <img
-            className="mb-4 h-[400px] w-full rounded-3xl shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
+            className="mb-4 h-[400px] w-full rounded-3xl object-cover shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
             src={photoImage}
             alt="Imagem da Carol"
           />
