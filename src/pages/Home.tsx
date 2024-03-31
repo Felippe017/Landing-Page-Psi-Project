@@ -166,9 +166,9 @@ export const Home = (): React.JSX.Element => {
               <div>
                 Embora a ansiedade seja uma emoção natural, torna-se preocupante
                 quando prejudica as atividades diárias. Sintomas de alerta
-                incluem: pensamentos acelerados, preocupações intensas, medo
-                excessivo, irritabilidade, insônia, falta de ar, taquicardia,
-                dor no estômago e aumento do apetite. A Terapia
+                incluem: pensamentos acelerados; preocupações intensas; medo
+                excessivo; irritabilidade; insônia; falta de ar; taquicardia;
+                dor no estômago e aumento do apetite; A Terapia
                 Cognitivo-Comportamental (TCC) pode ser eficaz no tratamento da
                 ansiedade, focando na identificação e modificação de padrões de
                 pensamento negativos, na promoção de comportamentos saudáveis e
@@ -212,14 +212,20 @@ export const Home = (): React.JSX.Element => {
               <div>
                 A Terapia Cognitivo-Comportamental (TCC) pode ajudar no
                 tratamento da autoestima ao: Identificar e mudar pensamentos
-                negativos sobre si mesmo. Trabalhar na reestruturação de crenças
-                limitantes. Explorar experiências passadas que afetam a
-                autoimagem. Estabelecer metas realistas para promover sucessos
-                graduais. Desenvolver habilidades sociais para lidar com
-                críticas e melhorar a comunicação. Incentivar comportamentos
-                positivos que reforcem uma imagem positiva. Desafiar distorções
-                cognitivas que contribuem para visões negativas. Refletir sobre
-                conquistas passadas para construir uma narrativa mais positiva.
+                negativos sobre si mesmo; <br /> Trabalhar na reestruturação de
+                crenças limitantes;
+                <br /> Explorar experiências passadas que afetam a autoimagem;
+                <br /> Estabelecer metas realistas para promover sucessos
+                graduais;
+                <br /> Desenvolver habilidades sociais para lidar com críticas e
+                melhorar a comunicação;
+                <br /> Incentivar comportamentos positivos que reforcem uma
+                imagem positiva;
+                <br /> Desafiar distorções cognitivas que contribuem para visões
+                negativas;
+                <br /> Refletir sobre conquistas passadas para construir uma
+                narrativa mais positiva;
+                <br />
                 Assim, a TCC visa promover uma mudança positiva na forma como a
                 pessoa se percebe, contribuindo para uma autoestima mais
                 saudável.
