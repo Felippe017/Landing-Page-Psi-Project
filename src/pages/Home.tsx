@@ -1,7 +1,7 @@
 import { MainTemplate } from '@/templates/MainTemplate';
 import Background from '../assets/banner_carol.svg';
-import photoImage from '../assets/fotoCarol-2.jpeg';
-import creatorTcc from '../assets/creatorTCC.jpeg';
+import photoImage from '../assets/photo4.jpeg';
+import creatorTcc from '../assets/photo1.jpeg';
 
 export const Home = (): React.JSX.Element => {
   return (
@@ -106,7 +106,7 @@ export const Home = (): React.JSX.Element => {
       >
         <div className="flex max-w-5xl flex-col p-4 lg:flex-row lg:p-[35px]">
           <img
-            className="mb-4 h-[400px] w-full rounded-3xl shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
+            className="mb-4 h-[400px] w-full rounded-3xl object-cover shadow-2xl lg:mb-0 lg:mr-6 lg:h-[700px] lg:w-[450px]"
             src={creatorTcc}
             alt="Imagem criador Tcc"
           />
