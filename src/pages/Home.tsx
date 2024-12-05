@@ -86,8 +86,7 @@ export const Home = (): React.JSX.Element => {
                 Comportamental do curso da renomada Psicóloga Doutora Fernanda
                 Landeiro. Além disso, ampliei meus conhecimentos no campo da
                 saúde mental, focando em questões relacionadas à obesidade e
-                emagrecimento, por meio do curso de formação também ministrado
-                pela mesma profissional.
+                emagrecimento.
               </span>
               <span className="px-4 py-2 font-[Quattrocento] text-base lg:px-0">
                 Além da atuação clínica, tenho experiência e interesse na
