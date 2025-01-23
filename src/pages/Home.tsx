@@ -1,5 +1,5 @@
 import { MainTemplate } from '@/templates/MainTemplate';
-import Background from '../assets/banner_carol.svg';
+import Background from '../assets/new-banner.jpg';
 import photoImage from '../assets/photo4.jpeg';
 import creatorTcc from '../assets/photo1.jpeg';
 
