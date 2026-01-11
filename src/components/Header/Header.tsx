@@ -61,29 +61,39 @@ export const Header = (): React.JSX.Element => {
       </header>
       {open && (
         <div className={`md:hidden`}>
-          <ul className="fixed z-10 w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
-            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
-              <a href="#sobre" className="text-white hover:text-[#B2BDA0]">
+          <ul className="fixed z-50 w-[100%] border-t-4 border-solid border-[#2F3B1C] bg-[#526534] p-[5%]">
+            <li className="transition duration-300 hover:bg-[#8D9E6F]">
+              <a
+                href="#sobre"
+                onClick={() => setOpen(false)}
+                className="block w-full px-[5%] py-3 text-white hover:text-[#B2BDA0]"
+              >
                 Sobre
               </a>
             </li>
-            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
-              <a href="#tcc" className="text-white hover:text-[#B2BDA0]">
+            <li className="transition duration-300 hover:bg-[#8D9E6F]">
+              <a
+                href="#tcc"
+                onClick={() => setOpen(false)}
+                className="block w-full px-[5%] py-3 text-white hover:text-[#B2BDA0]"
+              >
                 TCC
               </a>
             </li>
-            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+            <li className="transition duration-300 hover:bg-[#8D9E6F]">
               <a
                 href="#tratamentos"
-                className="text-white hover:text-[#B2BDA0]"
+                onClick={() => setOpen(false)}
+                className="block w-full px-[5%] py-3 text-white hover:text-[#B2BDA0]"
               >
                 Tratamentos
               </a>
             </li>
-            <li className="px-[5%] py-3 transition duration-300 hover:bg-[#8D9E6F]">
+            <li className="transition duration-300 hover:bg-[#8D9E6F]">
               <a
                 href="#depoimentos"
-                className="text-white hover:text-[#B2BDA0]"
+                onClick={() => setOpen(false)}
+                className="block w-full px-[5%] py-3 text-white hover:text-[#B2BDA0]"
               >
                 Depoimentos
               </a>
