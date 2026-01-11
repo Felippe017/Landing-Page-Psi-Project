@@ -1,76 +1,64 @@
-<div align="center">
-  <h1>
-    🚀 Template Vite for w2k
-  </h1>
-</div>
+# 🧠 Projeto Landing Page Psicologia
 
-<div align="center">
-  <strong>Template for Vite + React + Typescript + Tailwind + React Router Dom</strong>
-  <!-- badge -->
-  <br />
-  <br />
-  <!-- license -->
-  <img src="https://img.shields.io/github/license/walber-vaz/template-react-vite-tailwind-ts" alt="License" />
-  <!-- code size  -->
-  <img src="https://img.shields.io/github/languages/code-size/walber-vaz/template-react-vite-tailwind-ts" alt="Code Size" />
-  <!-- issues -->
-  <img src="https://img.shields.io/github/issues/walber-vaz/template-react-vite-tailwind-ts" alt="Issues" />
-  <!-- stars -->
-  <img src="https://img.shields.io/github/stars/walber-vaz/template-react-vite-tailwind-ts" alt="Stars" />
-  <!-- forks -->
-  <img src="https://img.shields.io/github/forks/walber-vaz/template-react-vite-tailwind-ts" alt="Forks" />
-  <!-- tecnologias -->
-  <img src="https://img.shields.io/github/languages/count/walber-vaz/template-react-vite-tailwind-ts" alt="Languages" />
-  <!-- top language -->
-  <img src="https://img.shields.io/github/languages/top/walber-vaz/template-react-vite-tailwind-ts" alt="Top Language" />
-  <!-- last commit -->
-  <img src="https://img.shields.io/github/last-commit/walber-vaz/template-react-vite-tailwind-ts" alt="Last Commit" />
-</div>
+## Contexto
+
+Este projeto trata-se de uma **Landing Page profissional para Psicologia**, desenvolvida com foco em apresentação institucional, captação de pacientes e fortalecimento da presença digital.
+
+A aplicação foi pensada para oferecer uma experiência moderna, clara e acolhedora, transmitindo confiança e profissionalismo para potenciais pacientes.
+
+🔗 **Link da aplicação:**  
+(https://psicarolnogueira.com.br/)
 
 ---
 
-## 📋 Features
+## Objetivo do projeto
 
-- [x] Vite
-- [x] React
-- [x] Typescript
-- [x] Tailwind
-- [x] React Router Dom
+Criar uma landing page profissional, moderna e responsiva para psicologia, com foco em conversão, usabilidade e fácil manutenção, utilizando tecnologias atuais do ecossistema React.
 
-## 🚀 Getting Started
+---
 
-### 📦 Install
+## Tecnologias usadas
 
-```bash
-# Clone the repository
-git clone https://github.com/walber-vaz/template-react-vite-tailwind-ts
+### Front-End
 
-# Enter the project directory
-cd template-react-vite-tailwind-ts
+- Vite
+- React
+- TypeScript
+- Tailwind CSS
+- React Router Dom
 
-# Install dependencies
-yarn install
+---
 
-# Start the project
-yarn dev
-```
+## Estrutura do projeto
 
-## 📝 License
+Estrutura base do projeto:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+    src/
+     ├─ assets/
+     ├─ components/
+     ├─ pages/
+     ├─ routes/
+     ├─ templates/
+     ├─ index.css
+     ├─ main.tsx
+     └─ vite-env.d.ts
+---
 
-## 🧑‍💻 Author
+## Instalando Dependências
 
-<div align="center">
-  <img src="https://github.com/walber-vaz.png" width="100px" alt="Author"/>
-  <br />
-  <strong>Walber Vaz</strong>
-  <br />
-  <p>👉 <a href="https://www.linkedin.com/in/walber-vaz/">LinkedIn</a></p>
-  <p>
-    Made with 💜 by Walber Vaz
-    <span>
-      Sobre o autor: Sou um desenvolvedor apaixonado por tecnologia, que busca sempre aprender coisas novas e compartilhar conhecimento.
-    </span>
-  </p>
-</div>
+Execute o comando abaixo para instalar todas as dependências do projeto:
+
+    yarn install
+
+---
+
+## Executando a aplicação
+
+Para iniciar o projeto em ambiente de desenvolvimento, execute:
+
+    yarn dev
+
+Após iniciar, a aplicação estará disponível em:
+
+    http://localhost:5173
+
