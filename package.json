@@ -8,6 +8,9 @@
     "email": "wvs.walber@gmail.com"
   },
   "description": "Template for React with Vite, TailwindCSS, ESLint, Prettier, TypeScript, React Router, Zustand and more.",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite --host --open",
     "build": "tsc && vite build",
